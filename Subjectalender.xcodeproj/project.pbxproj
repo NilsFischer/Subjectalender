@@ -18,6 +18,10 @@
 		29D258111420D16100195607 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 29D2580F1420D16100195607 /* InfoPlist.strings */; };
 		29D258131420D16100195607 /* SubjectalenderTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 29D258121420D16100195607 /* SubjectalenderTests.h */; };
 		29D258151420D16100195607 /* SubjectalenderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 29D258141420D16100195607 /* SubjectalenderTests.m */; };
+		29D2581F1420D18300195607 /* CalendarStore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29D2581E1420D18300195607 /* CalendarStore.framework */; };
+		29D258211420D1BF00195607 /* Application.xib in Resources */ = {isa = PBXBuildFile; fileRef = 29D258201420D1BF00195607 /* Application.xib */; };
+		29D258231420D25F00195607 /* Calender.xib in Resources */ = {isa = PBXBuildFile; fileRef = 29D258221420D25F00195607 /* Calender.xib */; };
+		29D258251420D76600195607 /* newtask.xib in Resources */ = {isa = PBXBuildFile; fileRef = 29D258241420D76600195607 /* newtask.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,20 +40,24 @@
 		29D257EC1420D16100195607 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		29D257ED1420D16100195607 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		29D257EE1420D16100195607 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		29D257F11420D16100195607 /* Subjectalender-Info.plist */ = {isa = PBXFileReference; path = "Subjectalender-Info.plist"; sourceTree = "<group>"; };
+		29D257F11420D16100195607 /* Subjectalender-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Subjectalender-Info.plist"; sourceTree = "<group>"; };
 		29D257F31420D16100195607 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		29D257F51420D16100195607 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		29D257F71420D16100195607 /* Subjectalender-Prefix.pch */ = {isa = PBXFileReference; path = "Subjectalender-Prefix.pch"; sourceTree = "<group>"; };
+		29D257F71420D16100195607 /* Subjectalender-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Subjectalender-Prefix.pch"; sourceTree = "<group>"; };
 		29D257F91420D16100195607 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		29D257FB1420D16100195607 /* SubjectalenderAppDelegate.h */ = {isa = PBXFileReference; path = SubjectalenderAppDelegate.h; sourceTree = "<group>"; };
+		29D257FB1420D16100195607 /* SubjectalenderAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SubjectalenderAppDelegate.h; sourceTree = "<group>"; };
 		29D257FC1420D16100195607 /* SubjectalenderAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SubjectalenderAppDelegate.m; sourceTree = "<group>"; };
 		29D257FF1420D16100195607 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		29D258061420D16100195607 /* SubjectalenderTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SubjectalenderTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		29D258071420D16100195607 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		29D2580E1420D16100195607 /* SubjectalenderTests-Info.plist */ = {isa = PBXFileReference; path = "SubjectalenderTests-Info.plist"; sourceTree = "<group>"; };
+		29D2580E1420D16100195607 /* SubjectalenderTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SubjectalenderTests-Info.plist"; sourceTree = "<group>"; };
 		29D258101420D16100195607 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		29D258121420D16100195607 /* SubjectalenderTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SubjectalenderTests.h; sourceTree = "<group>"; };
 		29D258141420D16100195607 /* SubjectalenderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SubjectalenderTests.m; sourceTree = "<group>"; };
+		29D2581E1420D18300195607 /* CalendarStore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CalendarStore.framework; path = System/Library/Frameworks/CalendarStore.framework; sourceTree = SDKROOT; };
+		29D258201420D1BF00195607 /* Application.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Application.xib; sourceTree = "<group>"; };
+		29D258221420D25F00195607 /* Calender.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Calender.xib; sourceTree = "<group>"; };
+		29D258241420D76600195607 /* newtask.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = newtask.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29D2581F1420D18300195607 /* CalendarStore.framework in Frameworks */,
 				29D257EA1420D16100195607 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -76,6 +85,10 @@
 		29D257DA1420D16100195607 = {
 			isa = PBXGroup;
 			children = (
+				29D258201420D1BF00195607 /* Application.xib */,
+				29D258241420D76600195607 /* newtask.xib */,
+				29D258221420D25F00195607 /* Calender.xib */,
+				29D2581E1420D18300195607 /* CalendarStore.framework */,
 				29D257EF1420D16100195607 /* Subjectalender */,
 				29D2580C1420D16100195607 /* SubjectalenderTests */,
 				29D257E81420D16100195607 /* Frameworks */,
@@ -227,6 +240,9 @@
 				29D257F41420D16100195607 /* InfoPlist.strings in Resources */,
 				29D257FA1420D16100195607 /* Credits.rtf in Resources */,
 				29D258001420D16100195607 /* MainMenu.xib in Resources */,
+				29D258211420D1BF00195607 /* Application.xib in Resources */,
+				29D258231420D25F00195607 /* Calender.xib in Resources */,
+				29D258251420D76600195607 /* newtask.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
