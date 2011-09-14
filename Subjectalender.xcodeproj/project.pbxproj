@@ -1,0 +1,450 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		29D257EA1420D16100195607 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29D257E91420D16100195607 /* Cocoa.framework */; };
+		29D257F41420D16100195607 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 29D257F21420D16100195607 /* InfoPlist.strings */; };
+		29D257F61420D16100195607 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29D257F51420D16100195607 /* main.m */; };
+		29D257FA1420D16100195607 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 29D257F81420D16100195607 /* Credits.rtf */; };
+		29D257FD1420D16100195607 /* SubjectalenderAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 29D257FC1420D16100195607 /* SubjectalenderAppDelegate.m */; };
+		29D258001420D16100195607 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 29D257FE1420D16100195607 /* MainMenu.xib */; };
+		29D258081420D16100195607 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29D258071420D16100195607 /* SenTestingKit.framework */; };
+		29D258091420D16100195607 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29D257E91420D16100195607 /* Cocoa.framework */; };
+		29D258111420D16100195607 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 29D2580F1420D16100195607 /* InfoPlist.strings */; };
+		29D258131420D16100195607 /* SubjectalenderTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 29D258121420D16100195607 /* SubjectalenderTests.h */; };
+		29D258151420D16100195607 /* SubjectalenderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 29D258141420D16100195607 /* SubjectalenderTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		29D2580A1420D16100195607 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29D257DC1420D16100195607 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 29D257E41420D16100195607;
+			remoteInfo = Subjectalender;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		29D257E51420D16100195607 /* Subjectalender.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Subjectalender.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		29D257E91420D16100195607 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		29D257EC1420D16100195607 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		29D257ED1420D16100195607 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		29D257EE1420D16100195607 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		29D257F11420D16100195607 /* Subjectalender-Info.plist */ = {isa = PBXFileReference; path = "Subjectalender-Info.plist"; sourceTree = "<group>"; };
+		29D257F31420D16100195607 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		29D257F51420D16100195607 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29D257F71420D16100195607 /* Subjectalender-Prefix.pch */ = {isa = PBXFileReference; path = "Subjectalender-Prefix.pch"; sourceTree = "<group>"; };
+		29D257F91420D16100195607 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		29D257FB1420D16100195607 /* SubjectalenderAppDelegate.h */ = {isa = PBXFileReference; path = SubjectalenderAppDelegate.h; sourceTree = "<group>"; };
+		29D257FC1420D16100195607 /* SubjectalenderAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SubjectalenderAppDelegate.m; sourceTree = "<group>"; };
+		29D257FF1420D16100195607 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		29D258061420D16100195607 /* SubjectalenderTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SubjectalenderTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		29D258071420D16100195607 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		29D2580E1420D16100195607 /* SubjectalenderTests-Info.plist */ = {isa = PBXFileReference; path = "SubjectalenderTests-Info.plist"; sourceTree = "<group>"; };
+		29D258101420D16100195607 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		29D258121420D16100195607 /* SubjectalenderTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SubjectalenderTests.h; sourceTree = "<group>"; };
+		29D258141420D16100195607 /* SubjectalenderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SubjectalenderTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		29D257E21420D16100195607 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29D257EA1420D16100195607 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29D258021420D16100195607 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29D258081420D16100195607 /* SenTestingKit.framework in Frameworks */,
+				29D258091420D16100195607 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		29D257DA1420D16100195607 = {
+			isa = PBXGroup;
+			children = (
+				29D257EF1420D16100195607 /* Subjectalender */,
+				29D2580C1420D16100195607 /* SubjectalenderTests */,
+				29D257E81420D16100195607 /* Frameworks */,
+				29D257E61420D16100195607 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		29D257E61420D16100195607 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				29D257E51420D16100195607 /* Subjectalender.app */,
+				29D258061420D16100195607 /* SubjectalenderTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29D257E81420D16100195607 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29D257E91420D16100195607 /* Cocoa.framework */,
+				29D258071420D16100195607 /* SenTestingKit.framework */,
+				29D257EB1420D16100195607 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		29D257EB1420D16100195607 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29D257EC1420D16100195607 /* AppKit.framework */,
+				29D257ED1420D16100195607 /* CoreData.framework */,
+				29D257EE1420D16100195607 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		29D257EF1420D16100195607 /* Subjectalender */ = {
+			isa = PBXGroup;
+			children = (
+				29D257FB1420D16100195607 /* SubjectalenderAppDelegate.h */,
+				29D257FC1420D16100195607 /* SubjectalenderAppDelegate.m */,
+				29D257FE1420D16100195607 /* MainMenu.xib */,
+				29D257F01420D16100195607 /* Supporting Files */,
+			);
+			path = Subjectalender;
+			sourceTree = "<group>";
+		};
+		29D257F01420D16100195607 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				29D257F11420D16100195607 /* Subjectalender-Info.plist */,
+				29D257F21420D16100195607 /* InfoPlist.strings */,
+				29D257F51420D16100195607 /* main.m */,
+				29D257F71420D16100195607 /* Subjectalender-Prefix.pch */,
+				29D257F81420D16100195607 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		29D2580C1420D16100195607 /* SubjectalenderTests */ = {
+			isa = PBXGroup;
+			children = (
+				29D258121420D16100195607 /* SubjectalenderTests.h */,
+				29D258141420D16100195607 /* SubjectalenderTests.m */,
+				29D2580D1420D16100195607 /* Supporting Files */,
+			);
+			path = SubjectalenderTests;
+			sourceTree = "<group>";
+		};
+		29D2580D1420D16100195607 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				29D2580E1420D16100195607 /* SubjectalenderTests-Info.plist */,
+				29D2580F1420D16100195607 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		29D257E41420D16100195607 /* Subjectalender */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29D258181420D16100195607 /* Build configuration list for PBXNativeTarget "Subjectalender" */;
+			buildPhases = (
+				29D257E11420D16100195607 /* Sources */,
+				29D257E21420D16100195607 /* Frameworks */,
+				29D257E31420D16100195607 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Subjectalender;
+			productName = Subjectalender;
+			productReference = 29D257E51420D16100195607 /* Subjectalender.app */;
+			productType = "com.apple.product-type.application";
+		};
+		29D258051420D16100195607 /* SubjectalenderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29D2581B1420D16100195607 /* Build configuration list for PBXNativeTarget "SubjectalenderTests" */;
+			buildPhases = (
+				29D258011420D16100195607 /* Sources */,
+				29D258021420D16100195607 /* Frameworks */,
+				29D258031420D16100195607 /* Resources */,
+				29D258041420D16100195607 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				29D2580B1420D16100195607 /* PBXTargetDependency */,
+			);
+			name = SubjectalenderTests;
+			productName = SubjectalenderTests;
+			productReference = 29D258061420D16100195607 /* SubjectalenderTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29D257DC1420D16100195607 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = Private;
+			};
+			buildConfigurationList = 29D257DF1420D16100195607 /* Build configuration list for PBXProject "Subjectalender" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 29D257DA1420D16100195607;
+			productRefGroup = 29D257E61420D16100195607 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				29D257E41420D16100195607 /* Subjectalender */,
+				29D258051420D16100195607 /* SubjectalenderTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		29D257E31420D16100195607 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29D257F41420D16100195607 /* InfoPlist.strings in Resources */,
+				29D257FA1420D16100195607 /* Credits.rtf in Resources */,
+				29D258001420D16100195607 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29D258031420D16100195607 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29D258111420D16100195607 /* InfoPlist.strings in Resources */,
+				29D258131420D16100195607 /* SubjectalenderTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		29D258041420D16100195607 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		29D257E11420D16100195607 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29D257F61420D16100195607 /* main.m in Sources */,
+				29D257FD1420D16100195607 /* SubjectalenderAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29D258011420D16100195607 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29D258151420D16100195607 /* SubjectalenderTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		29D2580B1420D16100195607 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 29D257E41420D16100195607 /* Subjectalender */;
+			targetProxy = 29D2580A1420D16100195607 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		29D257F21420D16100195607 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29D257F31420D16100195607 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		29D257F81420D16100195607 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29D257F91420D16100195607 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		29D257FE1420D16100195607 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29D257FF1420D16100195607 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		29D2580F1420D16100195607 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29D258101420D16100195607 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		29D258161420D16100195607 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		29D258171420D16100195607 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		29D258191420D16100195607 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Subjectalender/Subjectalender-Prefix.pch";
+				INFOPLIST_FILE = "Subjectalender/Subjectalender-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		29D2581A1420D16100195607 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Subjectalender/Subjectalender-Prefix.pch";
+				INFOPLIST_FILE = "Subjectalender/Subjectalender-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		29D2581C1420D16100195607 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Subjectalender.app/Contents/MacOS/Subjectalender";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Subjectalender/Subjectalender-Prefix.pch";
+				INFOPLIST_FILE = "SubjectalenderTests/SubjectalenderTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		29D2581D1420D16100195607 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Subjectalender.app/Contents/MacOS/Subjectalender";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Subjectalender/Subjectalender-Prefix.pch";
+				INFOPLIST_FILE = "SubjectalenderTests/SubjectalenderTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		29D257DF1420D16100195607 /* Build configuration list for PBXProject "Subjectalender" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29D258161420D16100195607 /* Debug */,
+				29D258171420D16100195607 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		29D258181420D16100195607 /* Build configuration list for PBXNativeTarget "Subjectalender" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29D258191420D16100195607 /* Debug */,
+				29D2581A1420D16100195607 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		29D2581B1420D16100195607 /* Build configuration list for PBXNativeTarget "SubjectalenderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29D2581C1420D16100195607 /* Debug */,
+				29D2581D1420D16100195607 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29D257DC1420D16100195607 /* Project object */;
+}
