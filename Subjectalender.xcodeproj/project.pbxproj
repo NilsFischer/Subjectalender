@@ -21,7 +21,6 @@
 		29D2581F1420D18300195607 /* CalendarStore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29D2581E1420D18300195607 /* CalendarStore.framework */; };
 		29D258211420D1BF00195607 /* Application.xib in Resources */ = {isa = PBXBuildFile; fileRef = 29D258201420D1BF00195607 /* Application.xib */; };
 		29D258231420D25F00195607 /* Calender.xib in Resources */ = {isa = PBXBuildFile; fileRef = 29D258221420D25F00195607 /* Calender.xib */; };
-		29D258251420D76600195607 /* newtask.xib in Resources */ = {isa = PBXBuildFile; fileRef = 29D258241420D76600195607 /* newtask.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,7 +56,6 @@
 		29D2581E1420D18300195607 /* CalendarStore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CalendarStore.framework; path = System/Library/Frameworks/CalendarStore.framework; sourceTree = SDKROOT; };
 		29D258201420D1BF00195607 /* Application.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Application.xib; sourceTree = "<group>"; };
 		29D258221420D25F00195607 /* Calender.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Calender.xib; sourceTree = "<group>"; };
-		29D258241420D76600195607 /* newtask.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = newtask.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,7 +84,6 @@
 			isa = PBXGroup;
 			children = (
 				29D258201420D1BF00195607 /* Application.xib */,
-				29D258241420D76600195607 /* newtask.xib */,
 				29D258221420D25F00195607 /* Calender.xib */,
 				29D2581E1420D18300195607 /* CalendarStore.framework */,
 				29D257EF1420D16100195607 /* Subjectalender */,
@@ -242,7 +239,6 @@
 				29D258001420D16100195607 /* MainMenu.xib in Resources */,
 				29D258211420D1BF00195607 /* Application.xib in Resources */,
 				29D258231420D25F00195607 /* Calender.xib in Resources */,
-				29D258251420D76600195607 /* newtask.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -451,6 +447,7 @@
 				29D2581A1420D16100195607 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		29D2581B1420D16100195607 /* Build configuration list for PBXNativeTarget "SubjectalenderTests" */ = {
 			isa = XCConfigurationList;
@@ -459,6 +456,7 @@
 				29D2581D1420D16100195607 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
